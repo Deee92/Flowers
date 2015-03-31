@@ -12,11 +12,4 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_select "title", "Home | #{@base_title}"
   end
 
-  test "should get all" do
-    get :all
-    assert_response :success
-    assert_template 'static_pages/all'
-    assert_select "title", "All | #{@base_title}"
-  end
-
 end

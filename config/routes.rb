@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  # get 'static_pages/home'
+  get 'all' => 'flowers#index'
 
-  get 'all' => 'static_pages#all'
+  resources :flowers
+  # get 'flowers/show'
+
+  # get 'static_pages/home'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
