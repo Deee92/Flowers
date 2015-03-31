@@ -1,0 +1,32 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+body {
+	margin-top: 50px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+/* header */
+
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #ff4e50;
+	letter-spacing: 2px;
+	padding-top: 9px;
+	text-transform: uppercase;
+	font-weight: bold;
+	&:hover {
+		text-decoration: none;
+	}
+}
