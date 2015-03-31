@@ -5,6 +5,7 @@
 
 body {
 	margin-top: 50px;
+	position: relative;
 }
 
 section {
@@ -28,5 +29,27 @@ textarea {
 	font-weight: bold;
 	&:hover {
 		text-decoration: none;
+	}
+}
+
+/* home */
+
+.pick {
+	position: fixed;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	height: 50px;
+	width: 200px;
+	background-color: #639f9d;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 1.7em;
+	color: white;
+	text-transform: uppercase;
+	&:hover {
+		text-decoration: none;
+		color: #e7f4fe;
 	}
 }
