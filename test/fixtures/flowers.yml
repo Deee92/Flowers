@@ -3,9 +3,9 @@
 one:
   name: MyString
   about: MyText
-  image: 
+  image_url: MyString
 
 two:
   name: MyString
   about: MyText
-  image: 
+  image_url: MyString

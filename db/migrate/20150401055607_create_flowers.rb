@@ -3,7 +3,7 @@ class CreateFlowers < ActiveRecord::Migration
     create_table :flowers do |t|
       t.string :name
       t.text :about
-      t.binary :image
+      t.string :image_url
 
       t.timestamps null: false
     end

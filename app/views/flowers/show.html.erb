@@ -2,6 +2,6 @@
 <p class="lead">
 	<%= @flower.about %>
 </p>
-<%= @flower.image %>
+<%= image_tag(@flower.image_url) %>
 <br/>
 <%= link_to "Back to all flowers", all_path %>

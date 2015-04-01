@@ -14,14 +14,14 @@ cherry_blossom = Flower.create!(name: "Cherry Blossom",
 																				U.S. The most popular colors are white and pink. They are
 																				beautiful while on the trees and remain a stunning sight even
 																				after carpeting the ground.",
-															  image: "cherry_blossom.jpg")
+															  image_url: "cherry_blossom.jpg")
 
 plumeria			= Flower.create!(name: "Plumeria",
 															 about: "One of the sweetest flowers you can ever smell. The scent is very light
 															 				 and sweet. You will likely to smell it again and again due to its
 															 				 unexplainable sweet scent. The flowers are very white with a little touch
 															 				 of yellow.",
-															 image: "plumeria.jpg")
+															 image_url: "plumeria.jpg")
 
 rose 					= Flower.create!(name: "Rose",
 											 			   about: "From the genus Rosa, Roses are one of the most romantic and
@@ -32,7 +32,7 @@ rose 					= Flower.create!(name: "Rose",
 											 			   				 found in Asia but it is generally well distributed all over the
 											 			   				 world. Roses are considered one of the most beautiful ornamental
 											 			   				 plants to decorate any garden.",
-										  				 image: "rose.jpg")
+										  				 image_url: "rose.jpg")
 
 tulip					= Flower.create!(name: "Tulip",
 															 about: "The tulip is one of the most cultivated flowers in the world as
@@ -41,7 +41,7 @@ tulip					= Flower.create!(name: "Tulip",
 															 				 Although the Dutch are the usual suspects when it comes to breeding
 															 				 the species, the first commercial cultivation of the plant actually
 															 				 happened in Iran.",
-															 image: "tulip.jpg")
+															 image_url: "tulip.jpg")
 
 white_lotus 	= Flower.create!(name: "White Lotus",
 											 				 about: "The white lotus is called the Egyptian white waterlily or the tiger
@@ -49,5 +49,5 @@ white_lotus 	= Flower.create!(name: "White Lotus",
 											 				 				 various parts of Southerast Asia and East Africa. The blossoms float
 											 				 				 on water with the support of its lily pads. The white lotus is also a
 											 				 				 popural pond and aquarium plant.",
-											 				 image: "white_lotus.jpg")
+											 				 image_url: "white_lotus.jpg")
 
